@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Login</string>
+    <string name="dont_account">¿No tienes cuenta?,</string>
+    <string name="create_here">Crea una aquí</string>
+    <string name="platzi_logo">Logo de Platzi</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_confirm_password">Confirma contraseña</string>
+    <string name="text_button_create_account">Únete</string>
+    <string name="toolbar_tittle_createaccount">Crear cuenta</string>
+    <string name="username_card">Félix Nuñez</string>
+    <string name="firsttext_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="like_numbercard">10 Me gusta</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="second_word_detail">Me gusta</string>
+    <string name="titleimage_detail">"Qué pasó ayer"</string>
+    <string name="lorem">Lorem ipsum, when lorem ipsum..lorem ipsun is a  bard dkdkjbd kj jdbfjd fjd Lorem ipsum, when lorem ipsum..lorem ipsun is a  bard dkdkjbd kj jdbfjd fjd. Lorem ipsum, when lorem ipsum..lorem ipsun is a  bard dkdkjbd kj jdbfjd fjd, Lorem ipsum, when lorem ipsum..lorem ipsun is a  bard dkdkjbd kj jdbfjd fjd</string>
+</resources>
