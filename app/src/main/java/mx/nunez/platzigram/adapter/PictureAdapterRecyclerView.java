@@ -1,8 +1,12 @@
 package mx.nunez.platzigram.adapter;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Intent;
+import android.os.Build;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.widget.RecyclerView;
+import android.transition.Explode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,7 +58,18 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(activity, PictureDetailActivity.class);
-                activity.startActivity(intent);
+
+                //Transition
+                if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
+                    Explode explode = new Explode();
+                    explode.setDuration(1000);
+                    //Efecto para la actividad
+                    activity.getWindow().setExitTransition(explode);
+                    activity.startActivity(intent, ActivityOptionsCompat.makeSceneTransitionAnimation(activity, view, activity.getString(R.string.transitionname_picture)).toBundle());
+                }else{
+                    activity.startActivity(intent);
+                }
+
             }
         });
     }

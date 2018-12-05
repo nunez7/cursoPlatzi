@@ -6,6 +6,7 @@
     <dimen name="activity_vertical_margin">60dp</dimen>
     <dimen name="edit_createaccount">10dp</dimen>
     <dimen name="cardview_height">200dp</dimen>
+    <dimen name="cardview_tamanio">150dp</dimen>
     <dimen name="cornerradius_cardview">4dp</dimen>
     <dimen name="textsize_card">25sp</dimen>
     <dimen name="textsize_firs_wordcard">15sp</dimen>
@@ -16,4 +17,19 @@
     <dimen name="appbarlayout_height">256dp</dimen>
     <dimen name="heigh_divider">1dp</dimen>
     <dimen name="title_detail">20dp</dimen>
+    <dimen name="textsize_userprofile">30dp</dimen>
+    <dimen name="dimen_circleimageprofile">160dp</dimen>
+    <dimen name="margintop_circleimageprofile">35dp</dimen>
+    <dimen name="elevation_circleimageprofile">10dp</dimen>
+    <dimen name="limitY_circle_image">-230dp</dimen>
+    <dimen name="margintoptoolbar_circleimageprofile">-2dp</dimen>
+    <dimen name="width_circleimagetoolbar">30dp</dimen>
+    <dimen name="textsize_toolbarprofile">16dp</dimen>
+    <dimen name="marginleft_usernametoolbarprofile">72dp</dimen>
+    <dimen name="margintop_usernametoolbarprofile">-100dp</dimen>
+    <dimen name="limitY_usernametoolbarprofile">-200dp</dimen>
+    <dimen name="margintoptargetY_profiletoolbarprofile">-5dp</dimen>
+    <dimen name="paddingbotton_profileimage">20dp</dimen>
+    <dimen name="margin_imageprofile">16dp</dimen>
+    <dimen name="padding_cardview_horizontal">10dp</dimen>
 </resources>
